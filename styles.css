@@ -1,0 +1,117 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  background-color: rgb(231, 238, 236);
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header h1 {
+  text-align: center;
+  background-color: darkgreen;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+ font-size: 40px;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 4px 8px 0px black;
+}
+
+/* profile image */
+.profile-img {
+  width: 150px;     
+  height: auto;
+  margin-top: 20px;   
+}
+
+/* Section headings */
+.section {
+  color: green;
+  font-size: 24px;
+  margin: 20px 0 10px;
+  border-bottom: 3px solid green;
+  padding-bottom: 5px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  color: green;
+}
+
+/* Links */
+.link-box {
+  margin: 8px 0;
+}
+
+.link-box a {
+  background-color: darkgreen;
+  color: white;
+  padding: 5px 12px;
+  text-decoration: underline;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* Contact */
+.contact {
+  
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+
+/* Button */
+.more-btn {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* more botton */
+.more-btn:hover {
+  background-color: lightgreen;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color:darkgreen;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  font-size: auto;
+}
+
+/* javaScript */
+#additionalDetails {
+  display: none;
+}
