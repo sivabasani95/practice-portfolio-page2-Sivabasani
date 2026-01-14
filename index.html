@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,76 +20,89 @@
   </header>
 
   <!-- Main Container -->
-  <div class="container">
+   <main class="container">
     <!-- Personal Details -->
-    <h2 class="section-title">Personal Details</h2>
-    <p><strong>Name:</strong> Siva Basani</p>
-    <p><strong>Age:</strong> 30</p>
-    <p><strong>Location:</strong> St Louis</p>
-    <p>
-      I am a passionate web developer who enjoys building clean and functional websites.
-    </p>
+    <div>
+      <h2 class="section-title">Personal Details</h2>
+      <p><strong>Name:</strong> Siva Basani</p>
+      <p><strong>Age:</strong> 30</p>
+      <p><strong>Location:</strong> St Louis</p>
+      <p>
+        I am a passionate web developer who enjoys building clean and functional websites.
+      </p>
+    </div>
 
     <!-- Profile Section -->
-    <section class="profile">
-      <img
-        src="siva.jpg"
-        alt="Profile Picture of Siva Basani"
-        class="profile-img"
-      >
-    </section>
+    <div>
+      <section class="profile">
+        <img src="siva.jpg" alt="Profile Picture of Siva Basani" class="profile-img">
+      </section>
+    </div>
 
     <!-- Skills Section -->
-    <h2 class="section">Skills & Proficiency</h2>
+    <div>
+      <h2 class="section">Skills & Proficiency</h2>
+    </div>
 
-<!-- table section-->
-    <table>
-      <caption><stong>Skills Table</stong></caption>
-      <tr>
-        <th>Skill</th>
-        <th>Category</th>
-        <th>Level</th>
-      </tr>
-      <tr>
-        <td>HTML</td>
-        <td>Frontend</td>
-        <td>Expert</td>
-      </tr>
-      <tr>
-        <td>CSS3</td>
-        <td>Frontend</td>
-        <td>Advanced</td>
-      </tr>
-      <tr>
-        <td>JavaScript</td>
-        <td>Frontend</td>
-        <td>Intermediate</td>
-      </tr>
-    </table>
+    <!-- table section-->
+    <div>
+      <table>
+        <caption><strong>Skills Table</strong></caption>
+        <tr>
+          <th>Skill</th>
+          <th>Category</th>
+          <th>Level</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Frontend</td>
+          <td>Expert</td>
+        </tr>
+        <tr>
+          <td>CSS3</td>
+          <td>Frontend</td>
+          <td>Advanced</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Frontend</td>
+          <td>Intermediate</td>
+        </tr>
+      </table>
+    </div>
 
- <!-- Learning Links -->
-    <h2 class="section">Lerning Links</h2>
-    <p class="link-box">
-      <a href="https://www.w3schools.com/html/" target="_blank">HTML</a>
-    </p>
-    <p class="link-box">
-      <a href="https://www.w3schools.com/css/" target="_blank">CSS3</a>
-    </p>
-    <p class="link-box">
-      <a href="https://www.w3schools.com/js/" target="_blank">JavaScript</a>
-    </p>
+    <!-- Learning Links -->
+    <div>
+      <h2 class="section">Learning Links</h2>
+      <p class="link-box">
+        <a href="https://www.w3schools.com/html/" target="_blank">HTML</a>
+      </p>
+      <p class="link-box">
+        <a href="https://www.w3schools.com/css/" target="_blank">CSS3</a>
+      </p>
+      <p class="link-box">
+        <a href="https://www.w3schools.com/js/" target="_blank">JavaScript</a>
+      </p>
+    </div>
 
     <!-- contact info -->
-    <h2 class="section">Contact Info</h2>
-    <p class="contact"><strong>Email</strong> SivaBasani.webpage@gmail.com</p>
-    <p class="contact"><strong>Phone:</strong> 303-349-0345</p>
+    <div>
+      <h2 class="section">Contact Info</h2>
+      <p class="contact"><strong>Email:</strong>
+        <a href="mailto:SivaBasani.webpage@gmail.com">
+         SivaBasani.webpage@gmail.com</a>
+      </p>
+      <p class="contact"><strong>Phone:</strong> 303-349-0345</p>
+    </div>
 
     <!--button -->
-    <button class="more-btn" onclick="toggleDetails()">
-      Show More Details
-    </button>
+    <div>
+      <button class="more-btn" onclick="toggleDetails()">
+        Show More Details
+      </button>
+    </div>
 
-    <!--additionalDeatiols-->
+    <!--Additional Deatiols-->
     <div id="additionalDetails">
       <h2 class="section">Hobbies</h2>
       <p>
@@ -99,17 +113,17 @@
       <h2 class="section">Experience</h2>
       <p>Software Developer (2015)</p>
     </div>
+   </main>
 
-  </div>
+    <!-- Footer -->
+      <footer>
+        <p>&copy; 2026 Siva Basani</p>
+        <a href="Privacy Policy" target="_blank">Privacy Policy</a>
+      </footer>
+    
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2026 Siva Basani</p>
-    <a href="Privacy Policy" target="_blank">Privacy Policy</a>
-  </footer>
+  </body>
 
-  <!-- JavaScript -->
-  <script src="script.js"></script>
-
-</body>
 </html>
